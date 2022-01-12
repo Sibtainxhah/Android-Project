@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/hii" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#0d6e6a"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:letterSpacing="0.03"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/_email"
+        android:textSize="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/_password"
+        android:textSize="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Password" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Forget Password?"
+    android:textColor="#0d6e6a"
+    android:textStyle="bold"
+    android:textSize="28dp"
+        android:layout_marginTop="10dp"
+        android:letterSpacing="0.03"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login "
+        android:id="@+id/_register_btn"
+        android:textSize="25dp"
+        android:onClick="register"
+        android:layout_below="@+id/_password"
+        android:layout_alignStart="@+id/_login_btn"
+        android:layout_marginTop="11dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? signup"
+        android:textColor="#0d6e6a"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="44dp"
+        android:letterSpacing="0.03"/>
+
+
+</LinearLayout>
